@@ -16,6 +16,6 @@ Object Detection models based on detectron2.
 |:---------:|:-------:|:-------:|:--------:|:--------------:|:------:|:------:|:--------:|
 | RetinaNet+      | ResNet50* | 1x      |       |            |  41.9  | [config](configs/resnet/retinanet_R_50_torchvision_FPN_1x.py ) | [model]()|
 
-`+`: we use GN + GIoU
+`+`: we use GN + GIoU + multi-scale training  
 `*`: we use new TorchVision [SOTA ResNet models](https://github.com/pytorch/vision/issues/3995#issuecomment-1013906621)
 
