@@ -19,7 +19,7 @@ model.backbone.bottom_up=L(ResNet)(
         norm="FrozenBN",
     ),
     out_features=["res3", "res4", "res5"],
-  freeze_at=0,
+  freeze_at=2, # freeze stem and stage1
 )
 # GN head
 model.head.norm = 'GN'
@@ -39,3 +39,7 @@ optimizer = L(torch.optim.AdamW)(
     weight_decay=0.05,
     betas=(0.9, 0.999),
 )
+
+# download resnet50 weights from https://download.pytorch.org/models/resnet50-11ad3fa6.pth
+# use tools/convert-torchvision-to-d2.py to convert to d2-formated pkl
+train.init_checkpoint="resnet50-11ad3fa6-d2.pkl"
