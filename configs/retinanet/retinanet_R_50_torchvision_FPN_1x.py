@@ -19,7 +19,7 @@ model.backbone.bottom_up=L(ResNet)(
         norm="FrozenBN",
     ),
     out_features=["res3", "res4", "res5"],
-  freeze_at = 0,
+  freeze_at=0,
 )
 # GN head
 model.head.norm = 'GN'
