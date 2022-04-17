@@ -2,7 +2,7 @@ from detectron2.config import LazyCall as L
 from detectron2.solver.build import get_default_optimizer_params
 from detectron2.modeling.backbone.fpn import LastLevelP6P7
 
-from txdet.modeling.backbone import DaViT
+from nndet2.modeling.backbone import DaViT
 
 
 model.backbone.bottom_up = L(DaViT)(
