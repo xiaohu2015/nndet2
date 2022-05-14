@@ -25,3 +25,11 @@ Object Detection models based on detectron2.
 | Model  | Backbone   | Lr schd | Mem (GB) | mask AP | box AP | Config | Download |
 |:---------:|:-------:|:-------:|:--------:|:--------------:|:------:|:------:|:--------:|
 | RetinaNet     | DaViT-Tiny | 1x      |       |            |  44.8  | [config](configs/davit/retinanet_davit_tiny_fpn_1x.py) | [model]()|
+
+
+- [SwinTransformerV2](https://arxiv.org/abs/2111.09883)
+
+| Model  | Backbone   | Lr schd | Mem (GB) | mask AP | box AP | Config | Download |
+|:---------:|:-------:|:-------:|:--------:|:--------------:|:------:|:------:|:--------:|
+| RetinaNet     | SwinV2-Tiny | 1x      |       |            |  44.5  | [config](configs/swinv2/retinanet_swinv2_tiny_fpn_1x.py) | [model]()|
+
