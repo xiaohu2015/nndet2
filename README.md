@@ -31,5 +31,5 @@ Object Detection models based on detectron2.
 
 | Model  | Backbone   | Lr schd | Mem (GB) | mask AP | box AP | Config | Download |
 |:---------:|:-------:|:-------:|:--------:|:--------------:|:------:|:------:|:--------:|
-| RetinaNet     | SwinV2-Tiny | 1x      |       |            |  44.5  | [config](configs/swinv2/retinanet_swinv2_tiny_fpn_1x.py) | [model]()|
+| RetinaNet     | SwinV2-Tiny | 1x      |       |            |  44.8  | [config](configs/swinv2/retinanet_swinv2_tiny_fpn_1x.py) | [model]()|
 
